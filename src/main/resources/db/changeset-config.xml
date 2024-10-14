@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE cqlChangeLog>
+<cqlChangeLog>
+    <majorVersion>1</majorVersion>
+    <include isPrimary="true" path="changeset/primary.xml"/>
+    <include path="changeset/V1.xml"/>
+</cqlChangeLog>

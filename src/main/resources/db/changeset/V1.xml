@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE  cqlChangeLog>
+<cqlChangeLog>
+    <changeset id="create-table-test_table1" order="1" consistencyLevel="ALL" author="mafei">
+        <statement>
+            CREATE TABLE IF NOT EXISTS test_table1
+            (
+            id UUID,
+            service_name TEXT,
+            PRIMARY KEY (ID, SERVICE_NAME)
+            )
+        </statement>
+    </changeset>
+    <changeset id="create-table-test_table2" order="2" consistencyLevel="ALL" author="mafei">
+        <statement>
+            CREATE TABLE IF NOT EXISTS test_table2
+            (
+            id UUID,
+            service_name TEXT,
+            PRIMARY KEY (ID, SERVICE_NAME)
+            )
+        </statement>
+    </changeset>
+    <changeset id="create-table-test_table3" consistencyLevel="ALL" order="3" author="mafei">
+        <statement>
+            CREATE TABLE IF NOT EXISTS test_table3
+            (
+            id UUID,
+            service_name TEXT,
+            PRIMARY KEY (ID, SERVICE_NAME)
+            )
+        </statement>
+    </changeset>
+
+    <changeset id="create-table-test_table4" consistencyLevel="ALL" order="4" author="mafei">
+        <statement>
+            CREATE TABLE IF NOT EXISTS test_table4
+            (
+            id UUID,
+            service_name TEXT,
+            PRIMARY KEY (ID, SERVICE_NAME)
+            )
+        </statement>
+    </changeset>
+
+
+
+</cqlChangeLog>

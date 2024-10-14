@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE  cqlChangeLog>
+<cqlChangeLog>
+
+    <changeset id="create_table-changelog_lock" order="1" consistencyLevel="ALL" author="Mafei">
+        <statement>
+            CREATE TABLE changelog_lock (
+            id TEXT,
+            major_version INT,
+            locked BOOLEAN,
+            lock_time TIMESTAMP,
+            locked_by TEXT,
+            PRIMARY KEY ((id,major_version))
+            );
+        </statement>
+    </changeset>
+</cqlChangeLog>
